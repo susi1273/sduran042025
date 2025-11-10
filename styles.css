@@ -1,0 +1,84 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: blue;
+}
+
+.container{
+    min-height: 10rem;
+    max-width: 75rem;
+    margin: auto;
+    background-color: beige;
+    padding: 1rem;
+}
+#pageheader{
+    background-color: lightskyblue;
+    min-height:auto;
+    padding:1rem;
+
+}
+
+#logo{
+    width:6.25rem; 
+    height:6.25rem; 
+    background-color: none; 
+    background-image:url(Images/Logo.png);
+}
+
+#pageheader .container{
+    background-color: none;
+    min-height: auto;
+    text-align: center;
+}
+#media{
+    background-color: deepskyblue;
+    min-height: 10rem;
+    padding:1rem;
+    background-image: url(Images/Heroimages.png);
+    background-size: cover; 
+    aspect-ratio: 16 / 9;
+}
+#career{
+    background-color: darkblue;
+    min-height: 10rem;
+    padding:1rem;
+}
+#pagecontent{
+    background-color: steelblue;
+    min-height: 10rem;
+    padding:1rem;
+}
+#semester1{
+    background-color: rgb(90, 184, 228);
+    min-height: 10rem;
+    padding:1rem;
+}
+#semester2{
+    background-color: rgb(108, 141, 187);
+    min-height: 10rem;
+    padding:1rem;
+}
+#pagefooter{
+    background-color: rgb(47, 47, 221);
+    min-height: auto;
+    padding:1rem;
+}
+#pagefooter .container{
+    text-align: center;
+    min-height: auto;
+}
+#subfooter{
+    background-color: royalblue;
+    min-height: 10rem;
+    padding:1rem;
+    text-align: center;
+}
+
+audio{
+    display: block;
+    margin: auto;
+    background-color:aquamarine;
+    border: 5px solid skyblue;
+}

@@ -1,0 +1,13 @@
+body
+{
+background-color: blue;
+}
+
+h1{
+    color: cornflowerblue;
+    background-color: cadetblue;
+    padding:1rem;
+}
+ul{
+    font-family: 'Courier New', Courier, monospace;
+}

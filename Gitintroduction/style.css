@@ -1,0 +1,25 @@
+body{
+    background-color: blue;
+}
+h1{
+    text-align: center;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+dl{
+    width: 60%;
+    margin: auto;
+    border: 2px solid lightskyblue;
+    margin-top:2rem;
+}
+dt{
+    background-color: cadetblue;
+    padding: 1rem;
+    font-weight: bold;
+}
+dd{
+    padding: 1rem ;
+}
