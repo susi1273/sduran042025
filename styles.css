@@ -3,18 +3,18 @@ html
     scroll-behavior: smooth;
 }
 body{
-    background-color: blue;
+    background-color: midnightblue;
 }
 
 .container{
     min-height: 10rem;
     max-width: 75rem;
     margin: auto;
-    background-color: beige;
+    background-color: grey;
     padding: 1rem;
 }
 #pageheader{
-    background-color: lightskyblue;
+    background-color: dark brown;
     min-height:auto;
     padding:1rem;
 
@@ -24,7 +24,9 @@ body{
     width:6.25rem; 
     height:6.25rem; 
     background-color: none; 
-    background-image:url(Images/Logo.png);
+    background-image:url(Images/Logo.jpg);
+    background-size:cover;
+    border-radius: 50%;
 }
 
 #pageheader .container{
@@ -33,35 +35,37 @@ body{
     text-align: center;
 }
 #media{
-    background-color: deepskyblue;
-    min-height: 10rem;
+    background-color: #4A5E64;
+   min-height: auto;
     padding:1rem;
-    background-image: url(Images/Heroimages.png);
-    background-size: cover; 
+    background-image: url(Images/Paris\ hero\ image\ .jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     aspect-ratio: 16 / 9;
+    background-position: bottom center;
 }
 #career{
-    background-color: darkblue;
+    background-color: rgb(119, 91, 63);
     min-height: 10rem;
     padding:1rem;
 }
 #pagecontent{
-    background-color: steelblue;
+    background-color: #244878;
     min-height: 10rem;
     padding:1rem;
 }
 #semester1{
-    background-color: rgb(90, 184, 228);
+    background-color: rgb(53, 84, 45);
     min-height: 10rem;
     padding:1rem;
 }
 #semester2{
-    background-color: rgb(108, 141, 187);
+    background-color: rgb(104, 102, 93);
     min-height: 10rem;
     padding:1rem;
 }
 #pagefooter{
-    background-color: rgb(47, 47, 221);
+    background-color: rgb(67, 67, 67);
     min-height: auto;
     padding:1rem;
 }
@@ -70,7 +74,7 @@ body{
     min-height: auto;
 }
 #subfooter{
-    background-color: royalblue;
+    background-color:rgb(36, 52, 84);
     min-height: 10rem;
     padding:1rem;
     text-align: center;
@@ -79,6 +83,32 @@ body{
 audio{
     display: block;
     margin: auto;
-    background-color:aquamarine;
-    border: 5px solid skyblue;
+    background-color:maroon;
+    border: 5px solid rgb(115, 82, 42);
 }
+
+@media screen and  (min-width:600px) 
+{
+        #pagecontent{
+            background-color: blue;
+    
+        }
+        #career{
+            background-color: red;
+        }
+    
+}
+
+@media screen and  (min-width:600px) 
+{
+        #pagecontent{
+            background-color: blue;
+    
+        }
+        #career{
+            background-color: red;
+        }
+    
+}
+
+
