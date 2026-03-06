@@ -1,20 +1,28 @@
+
+/* Mobile View - Default */
+:root {
+    background-color: cadetblue;
+    background-color: darkcyan;
+    background-color: #BEE9E8;
+    --main-font:arial;
+}
 html
 {
     scroll-behavior: smooth;
 }
 body{
-    background-color: midnightblue;
+    background-color: #53A2BE;
 }
 
 .container{
     min-height: 10rem;
     max-width: 75rem;
     margin: auto;
-    background-color: grey;
+    background-color: #EFF2C0;
     padding: 1rem;
 }
 #pageheader{
-    background-color: dark brown;
+    background-color:#A4BAB7;
     min-height:auto;
     padding:1rem;
 
@@ -24,9 +32,15 @@ body{
     width:6.25rem; 
     height:6.25rem; 
     background-color: none; 
-    background-image:url(Images/Logo.jpg);
+    background-image:url(Images/Logov2.png);
+    border:1px;
     background-size:cover;
-    border-radius: 50%;
+    background-color: none;
+    margin-left:200px;
+    position:relative;
+    left:calc(50% - 03.12rem);
+    
+
 }
 
 #pageheader .container{
@@ -35,37 +49,37 @@ body{
     text-align: center;
 }
 #media{
-    background-color: #4A5E64;
-   min-height: auto;
+    background-color:#D6EDFF;
+    min-height: auto;
     padding:1rem;
-    background-image: url(Images/Paris\ hero\ image\ .jpg);
+    background-image: url(Images/wallpaperjpg);
     background-size: 100%;
     background-repeat: no-repeat;
     aspect-ratio: 16 / 9;
     background-position: bottom center;
 }
 #career{
-    background-color: rgb(119, 91, 63);
+    background-color: #ACD7EC;
     min-height: 10rem;
     padding:1rem;
 }
 #pagecontent{
-    background-color: #244878;
+    background-color: #1D84B5;
     min-height: 10rem;
     padding:1rem;
 }
 #semester1{
-    background-color: rgb(53, 84, 45);
+    background-color: #62B6CB;
     min-height: 10rem;
     padding:1rem;
 }
 #semester2{
-    background-color: rgb(104, 102, 93);
+    background-color:#CAE9FF ;
     min-height: 10rem;
     padding:1rem;
 }
 #pagefooter{
-    background-color: rgb(67, 67, 67);
+    background-color:#84dcc6;
     min-height: auto;
     padding:1rem;
 }
@@ -74,39 +88,58 @@ body{
     min-height: auto;
 }
 #subfooter{
-    background-color:rgb(36, 52, 84);
+    background-color:#62B6CB;
     min-height: 10rem;
     padding:1rem;
     text-align: center;
 }
-
+* a{
+    color: #53A2BE;
+    text-decoration: underline;}
+* a:hover{
+    transition: .5s;
+    color:#84dcc6;
+text-decoration: none;
+}
 audio{
     display: block;
     margin: auto;
-    background-color:maroon;
-    border: 5px solid rgb(115, 82, 42);
+    background-color:#BEE9E8;
+    border: 5px solid #1D84B5;
+}
+@media screen and (min-width:500px)
+{
+    body{
+        background-color: #1D84B5;
+
+        #logo{
+            margin:0;
+        }
+    }
+
+}
+/* Tablet Veiw */
+
+@media screen and  (min-width:600px) 
+{
+        #pagecontent{
+            background-color:#1D84B5;
+    
+        }
+        #career{
+            background-color: #5FA8D3;
+        }
+    
 }
 
 @media screen and  (min-width:600px) 
 {
         #pagecontent{
-            background-color: blue;
+            background-color: #1D84B5;
     
         }
         #career{
-            background-color: red;
-        }
-    
-}
-
-@media screen and  (min-width:600px) 
-{
-        #pagecontent{
-            background-color: blue;
-    
-        }
-        #career{
-            background-color: red;
+            background-color: #5FA8D3;
         }
     
 }
