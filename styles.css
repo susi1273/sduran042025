@@ -51,12 +51,12 @@ body{
 #media{
     background-color:#D6EDFF;
     min-height: auto;
+    height: 60vh;
     padding:1rem;
     background-image: url(Images/wallpaperjpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    aspect-ratio: 16 / 9;
-    background-position: bottom center;
+    background-size: cover;
+    background-position: center center;
+  
 }
 #career{
     background-color: #ACD7EC;
