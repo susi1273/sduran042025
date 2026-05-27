@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMedia Queries</title>
+    <style>
+        /* Mobile First Design */
+        body{
+            background-color: lightblue;
+
+        }
+        h1,
+        h2 {
+            color: white;
+            text-align: center;
+        }
+
+        /* Tablet and Desktop Design  */
+        @media  screen and (min-width:700px)     { 
+            body{
+                background-color: cadetblue;
+            }
+            h1,h2{color: aliceblue;}
+        }
+
+        @media screen and (min-width:960px)  
+        {
+           body {background-color: blue;} 
+           h1,h2{
+            color: cornflowerblue;
+           }
+        }
+
+        @media screen and (min-width:1288px) {
+            body{background-color: darkblue;
+            }
+            h1,h2{color: deepskyblue;}
+        }
+    </style>
+</head>
+<body>
+    <h1>Media Queries</h1>
+    <h2>Susi Duran</h2>
+</body>
+</html>
